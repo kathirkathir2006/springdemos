@@ -1,0 +1,11 @@
+public class TypeEs {
+  public static void main(String args[]) {
+ 
+    Map genericsMap = new HashMap();
+    Map noGenericsMap = new HashMap();
+
+    genericsMap.put("1954", "FORTRAN");
+    String language = genericsMap.get("1954");
+    System.out.println("Language: "+language);
+  }
+}
